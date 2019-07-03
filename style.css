@@ -1,0 +1,121 @@
+body{
+    
+    
+    
+    font-size: 18px;
+    
+    
+    /* grid-template: 100px 50px 100px 100px; */
+    display: grid; 
+    grid-template-areas: 'nav nav nav nav' 'header header header aside' 
+    'section section section aside' 'batata batata batata batata' 'footer footer footer footer';
+    grid-template-rows: 20vh 40vh 60vh 80vh 40vh;
+    grid-auto-columns: 25vw 25vw 25vw 23.79vw;
+    margin: 0;
+    
+    
+    /* vh é so rows e vw  é coluna */
+    
+    
+}
+nav{
+    
+    grid-area: nav;
+    background-color: black;
+    
+    
+}
+header{
+    grid-area: header;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+header img{
+
+height: 100%;
+border-radius: 25px;
+
+
+
+}
+p{
+
+
+    font-family: 'Metal Mania', cursive;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 50px;
+
+
+
+
+}
+section{
+    
+    background-color: blue;
+    grid-area: section;
+    background-image:  url("img/carreta.jpg");
+    background-size: cover;
+    
+}
+aside{
+    
+    background-color: deeppink;
+    background-image:  url("img/milos.jpg");
+    grid-area: aside;
+    background-size: cover;
+    height: 100%;
+
+
+}
+footer{
+    
+    grid-area: footer;
+    background-color: gold;
+    background-image:  url("img/drake.gif   ");
+    display: flex;
+    flex-direction: column;
+}
+
+.teste2{
+    
+    
+    font-size: 1.2em;
+    
+    
+    
+}
+.teste3{
+    
+    
+    font-size: 1.2em;
+    
+    
+    
+}
+.batata{
+
+
+
+
+    grid-area: batata;
+    background-image:  url("img/neymar.jpg");
+    background-size: cover;
+
+
+
+}
+.carreta 
+.fake p{
+
+
+    font-size: 3.2rem;
+
+
+}
+
+
+
